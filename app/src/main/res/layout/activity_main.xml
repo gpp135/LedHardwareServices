@@ -8,20 +8,24 @@
 
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="ALL ON" />
 
     <CheckBox
-        android:id="@+id/checkBox4"
+        android:id="@+id/checkBoxLed1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LED1" />
+        android:text="LED1"
+        android:onClick="onCheckboxClicked"
+        />
 
     <CheckBox
-        android:id="@+id/checkBox5"
+        android:id="@+id/checkBoxLed2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LED2" />
+        android:text="LED2"
+        android:onClick="onCheckboxClicked"
+        />
 </LinearLayout>
